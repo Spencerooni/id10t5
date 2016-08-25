@@ -30,7 +30,7 @@
 			value="com.mysql.jdbc.Driver">
 		</property>
 		<property name="url" value="jdbc:mysql://localhost/tvdb"></property>
-		<property name="username" value="root"></property>
+		<property name="username" value="idiotuser"></property>
 		<property name="password" value="password"></property>
 	</bean>
 	<bean id="sqlSessionFactory"
