@@ -20,7 +20,8 @@ table{
 <form action = "add.html" method="post">
 <tr><td>First Name:</td><td><input name="firstName"/></td></tr>
 <tr><td>Last Name:</td><td><input name="lastName"/></td></tr>
-<<tr><td>Employee ID:</td><td><input name="IDInput"/></td></tr>
+<tr><td>Employee ID:</td><td><input name="IDInput"/></td></tr>
+<tr><td>Department ID:</td><td><input name="DepartmentInput"/></td></tr>
 <tr><td>National Insurance Number:</td><td><input name="NINInput"/></td></tr>
 <tr><td>IBAN:</td><td><input name="IBANInput"/></td></tr>
 <tr><td>BIC:</td><td><input name="BICInput"/></td></tr>
