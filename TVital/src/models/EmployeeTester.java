@@ -1,27 +1,27 @@
 package models;
 
 public class EmployeeTester {
-	private String firstName;
-	private String lastName;
+	private String fName;
+	private String lName;
 
 	public EmployeeTester() {
 		//Empty Constructor
 	}
 
-	public String getFirstName() {
-		return firstName;
+	public String getFName() {
+		return fName;
 	}
 
 	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+		this.fName = firstName;
 	}
 
-	public String getLastName() {
-		return lastName;
+	public String getLName() {
+		return lName;
 	}
 
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setLName(String lastName) {
+		this.lName = lastName;
 	}
 
 }
