@@ -6,7 +6,7 @@
 </head>
 <body>
 <table border=1>
-<#list emp as e>
+<#list emps as e>
 <tr><td>
 ${e.getFName()}</td> <td>${e.getLName()}
 </td></tr>

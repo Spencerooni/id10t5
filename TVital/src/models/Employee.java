@@ -6,8 +6,8 @@ public class Employee {
 	private String firstName;
 	private String lastName;
 	private String NINumber;
-	private String department_ID;
-	private Departments department;
+	private int department_ID;
+	private String departmentName;
 	private String IBAN;
 	private String BIC;
 	private String Salary;
@@ -106,6 +106,22 @@ public class Employee {
 
 	public void setCountry(String country) {
 		Country = country;
+	}
+
+	public String getDepartmentName() {
+		return departmentName;
+	}
+
+	public void setDepartmentName(String name) {
+		this.departmentName = name;
+	}
+
+	public int getDepartment_ID() {
+		return department_ID;
+	}
+
+	public void setDepartment_ID(int department_ID) {
+		this.department_ID = department_ID;
 	}
 
 }
