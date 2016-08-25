@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Param;
 
+import models.Employee;
 import models.EmployeeTester;
 
 public interface IEmployeeMapper {
@@ -18,4 +19,7 @@ public interface IEmployeeMapper {
 	
 	@Select("SELECT fname, lname FROM Testdb")
 	List<EmployeeTester> getEmployeeTest ();
+	
+	@Select("SELECT fname as firstName, lname as lastName, FROM Employee")
+	List<Employee> getEmployees();
 }
