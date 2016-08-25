@@ -6,18 +6,11 @@ public class Employee {
 	private String firstName;
 	private String lastName;
 	private String NINumber;
-	private Department department_ID;
+	private String department_ID;
+	private Departments department;
 	private String IBAN;
 	private String BIC;
 	private String Salary;
-	public Department getDepartment_ID() {
-		return department_ID;
-	}
-
-	public void setDepartment_ID(Department department_ID) {
-		this.department_ID = department_ID;
-	}
-
 	private String address;
 	private String City;
 	private String Postcode;
