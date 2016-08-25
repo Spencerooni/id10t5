@@ -7,8 +7,11 @@
 <body>
 <h1>Welcome to the home menu</h1>
 <form action = "showEmp.html" method="get">
-<tr><td> <input type ="submit" value ="Show employee"></td><td>
+<tr><td> <input type ="submit" value ="Show Employee"></td><td>
 
+</form>
+<form action= "FrontEnd.html" method = "get"> 
+<tr><td> <input type = "submit" value = "New Employee"></td></tr>
 </form>
 
 
