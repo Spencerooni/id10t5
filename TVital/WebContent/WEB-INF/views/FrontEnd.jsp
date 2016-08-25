@@ -20,7 +20,7 @@ table{
 <form action = "add.html" method="post">
 <tr><td>First Name:</td><td><input name="firstName"/></td></tr>
 <tr><td>Last Name:</td><td><input name="lastName"/></td></tr>
-<!--<tr><td>Employee ID:</td><td><input name="IDInput"/></td></tr>
+<<tr><td>Employee ID:</td><td><input name="IDInput"/></td></tr>
 <tr><td>National Insurance Number:</td><td><input name="NINInput"/></td></tr>
 <tr><td>IBAN:</td><td><input name="IBANInput"/></td></tr>
 <tr><td>BIC:</td><td><input name="BICInput"/></td></tr>
@@ -29,7 +29,7 @@ table{
 <tr><td>Country:</td><td><input name="CountryInput"/></td></tr>
 <tr><td>Postcode:</td><td><input name="PostcodeInput"/></td></tr>
 <tr><td>Address</td><td><input name="AddressInput"/></td></tr>
--->
+
 <tr><td><input type ="submit" value="SUBMIT" ></td></tr>
 </form>
 
