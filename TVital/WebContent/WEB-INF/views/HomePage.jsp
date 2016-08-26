@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Welcome to the home menu</h1>
-<form action = "showEmp.html" method="get">
+<form action = "showEmployees.html" method="get">
 <tr><td> <input type ="submit" value ="Show Employee"></td><td>
 
 </form>
